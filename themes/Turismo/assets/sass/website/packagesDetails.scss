@@ -1,0 +1,346 @@
+section#details {
+    padding-top: 100px;
+    background-color: #fff;
+    .conteudos {
+        .imagens {
+            .itens {
+                .img {
+                    height: 540px;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    
+                }
+                .subimagens {
+                    .imgBox {
+                        height: 116px;
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        margin-bottom: 20px;
+                    }
+                }
+
+            }
+            .end {
+                
+                .title {
+                    padding-left: 15px;
+                   
+                    .infosPack {                        
+                        display: flex;
+                        justify-content: space-between; 
+                        padding: 0px;
+                                           
+                        .icon {
+                            color: #4a4a4a;
+                            font-family: 'Poppins', sans-serif;
+                            font-size: 20px; 
+                            font-weight: 300;                           
+                            line-height: 24px;
+                            i {
+
+                            }
+                        }                        
+                    }
+                }
+                .endereco {
+                    padding-left: 15px;
+                    
+                    .infosEnd {    
+                        padding: 0px;                    
+                        p {
+                            color: #4a4a4a;
+                            font-family: 'Poppins', sans-serif;
+                            font-size: 14px;                            
+                            
+                            i {
+
+                            }
+                        }
+
+                    }
+                }
+                .text {
+                    padding-left: 15px;
+                    p {
+                        color: #4a4a4a;
+                        font-family: 'Poppins', sans-serif;
+                        font-size: 14px;
+                        font-weight: 300;
+                        line-height: 24px;
+                    }
+                }
+            }
+        }
+    }
+}
+section#infoGeral {
+    background-color: #fff;
+    padding: 30px 0;
+    .sobre {        
+        .price {
+            padding-left: 15px;
+            padding-top: 30px;
+            margin-bottom: 45px;
+            h1 {
+                color: #1e1e1e;
+                font-family: 'Poppins', sans-serif;
+                font-size: 28px;
+                font-weight: 400;    
+            }
+        }
+        .tableprice {
+            padding-left: 15px;
+            thead {
+                tr {
+                    th {
+                        color: #212529;
+                        font-family: 'Poppins', sans-serif;
+                        font-size: 16px;
+                        font-weight: 700;
+                        padding: 12px;
+    
+                    }
+                }
+            }
+            tbody {
+                tr {
+                    td {
+                        color: #212529;
+                        font-family: 'Poppins', sans-serif;
+                        font-size: 16px;
+                        font-weight: 400;
+                        padding: 12px;
+
+                    }
+                }
+            }
+        }
+        .info {
+            margin-top: 30px;
+            h1 {
+                color: #1e1e1e;
+                font-family: 'Poppins', sans-serif;
+                font-size: 28px;
+                font-weight: 400;
+                padding-top: 30px;
+                margin-bottom: 15px;
+            }
+        }
+        .tableinfo {
+            margin: 30px 0 30px 0;
+
+            table {
+                tbody {
+                    tr {
+                        th {
+                            color: #4a4a4a;
+                            font-family: 'Poppins', sans-serif;
+                            font-size: 14px;
+                            font-weight: 400;
+                            line-height: 24px;
+                            
+
+                        }
+                        td {
+                            color: #4a4a4a;
+                            font-family: 'Poppins', sans-serif;
+                            font-size: 14px;
+                            font-weight: 300;
+                            line-height: 24px;
+                            margin-bottom: 15px;
+                            
+                        }
+                    }
+                }
+            }
+        }
+        .mapcontact {
+            padding: 30px 0;
+            .maps {
+                .title {
+                    color: #1e1e1e;
+                    font-family: 'Poppins', sans-serif;
+                    font-size: 28px;
+                    font-weight: 400;
+                    line-height: 33.6px;  
+                    padding-right: 15px;
+                    padding-bottom:  15px;
+                    border-bottom: 1px solid #eee;
+                }
+                .gmaps {
+                    margin-top: 45px;
+                    iframe {
+                        width: 100%;
+                    }
+                }
+            }
+            .contact {                
+                .titlecont {
+                    p {
+                        color: #1e1e1e;
+                        font-family: 'Poppins', sans-serif;
+                        font-size: 28px;
+                        font-weight: 400;
+                        line-height: 33.6px;
+                        margin-bottom: 45px;
+                        padding-bottom: 15px;                   
+                        border-bottom: 1px solid #eee;
+                    }
+                }
+                .dadosCont {
+                    p {
+                        span {
+                            color: #4a4a4a;
+                            font-family: 'Poppins', sans-serif;
+                            font-size: 14px;
+                            font-weight: 300;
+                            line-height: 24px; 
+                        }
+                        strong {
+                            color: #4a4a4a;
+                            font-family: 'Poppins', sans-serif;
+                            font-size: 14px;                            
+                            line-height: 24px;
+                            a {
+                                color: #007bff;
+                                font-family: 'Poppins', sans-serif;
+                                font-size: 14px;
+                                font-weight: 400;
+                                line-height: 24px; 
+                            }
+                        }
+                    }
+                }
+                .button {
+                    a {
+                        background-color: #f33f3f;
+                        color: #fff;
+                        font-size: 14px;
+                        font-family: 'Poppins', sans-serif;
+                        font-weight: 300;
+                        padding: 10px 20px;
+                        border-radius: 5px;
+
+                        &:hover {
+                            background-color: black;
+                        }
+                    }
+                    
+                }
+            }
+        }
+        .formcontact {
+            padding-top: 30px;
+            .form {
+                .title {
+                    color: #1e1e1e;
+                    font-family: 'Poppins', sans-serif;
+                    font-size: 28px;
+                    font-weight: 400;
+                    line-height: 33.6px;  
+                    padding-right: 15px;
+                    padding-bottom:  15px;
+                    border-bottom: 1px solid #eee;
+                }
+                .formcont {
+                    
+                    form {
+                        .one {
+                            .form-group {
+                                input {
+                                    width: 100%;
+                                    height: 44px;
+                                    margin: 45px 0 30px;
+                                    padding: 6px 12px;
+                                    border-radius: 0px;
+                                    color: #212529;
+                                    font-family: 'Poppins', sans-serif;
+                                    font-size: 14px;
+                                    background-color: #fff;
+                                    border: 1px solid #eee;
+                                }
+                            }
+                        }
+                        .two {
+                            .form-group {
+                                input {
+                                    width: 100%;
+                                    height: 44px;
+                                    margin: 0 0 30px;
+                                    padding: 6px 12px;
+                                    border-radius: 0px;
+                                    color: #212529;
+                                    font-family: 'Poppins', sans-serif;
+                                    font-size: 14px;
+                                    background-color: #fff;
+                                    border: 1px solid #eee;
+
+                                }
+                            }
+                        }
+                        .three {
+                            .col {
+                                .form-group {
+                                    .form-control {
+                                        min-height: 120px;
+                                        margin: 0 0 30px;
+                                        padding: 6px 12px;
+                                        border-radius: 0px;
+                                        color: #212529;
+                                        font-family: 'Poppins', sans-serif;
+                                        font-size: 14px;
+                                        background-color: #fff;
+                                        border: 1px solid #eee;
+
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .button {
+                    a {
+                        background-color: #f33f3f;
+                        color: #fff;
+                        font-size: 14px;
+                        font-family: 'Poppins', sans-serif;
+                        font-weight: 300;
+                        padding: 10px 20px;
+                        border-radius: 5px;
+
+                        &:hover {
+                            background-color: black;
+                        }
+
+                    }
+                }
+            }
+            .terms {
+                .termstext {
+                    p {
+                        color: #1e1e1e;
+                        font-family: 'Poppins', sans-serif;
+                        font-size: 28px;
+                        font-weight: 400;
+                        line-height: 33.6px;
+                        margin-bottom: 45px;
+                        padding-bottom: 15px;                   
+                        border-bottom: 1px solid #eee;
+
+                    }
+                }
+                .dadosCont {
+                    p {
+                        color: #4a4a4a;
+                        font-family: 'Poppins', sans-serif;
+                        font-size: 14px;
+                        font-weight: 300;
+                        line-height: 24px; 
+                    }
+                }
+            }
+        }       
+    }
+}

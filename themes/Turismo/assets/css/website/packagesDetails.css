@@ -1,0 +1,294 @@
+/* line 1, ../../sass/website/packagesDetails.scss */
+section#details {
+  padding-top: 100px;
+  background-color: #fff;
+}
+/* line 7, ../../sass/website/packagesDetails.scss */
+section#details .conteudos .imagens .itens .img {
+  height: 540px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 15, ../../sass/website/packagesDetails.scss */
+section#details .conteudos .imagens .itens .subimagens .imgBox {
+  height: 116px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+/* line 27, ../../sass/website/packagesDetails.scss */
+section#details .conteudos .imagens .end .title {
+  padding-left: 15px;
+}
+/* line 30, ../../sass/website/packagesDetails.scss */
+section#details .conteudos .imagens .end .title .infosPack {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+}
+/* line 35, ../../sass/website/packagesDetails.scss */
+section#details .conteudos .imagens .end .title .infosPack .icon {
+  color: #4a4a4a;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 24px;
+}
+/* line 47, ../../sass/website/packagesDetails.scss */
+section#details .conteudos .imagens .end .endereco {
+  padding-left: 15px;
+}
+/* line 50, ../../sass/website/packagesDetails.scss */
+section#details .conteudos .imagens .end .endereco .infosEnd {
+  padding: 0px;
+}
+/* line 52, ../../sass/website/packagesDetails.scss */
+section#details .conteudos .imagens .end .endereco .infosEnd p {
+  color: #4a4a4a;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+}
+/* line 64, ../../sass/website/packagesDetails.scss */
+section#details .conteudos .imagens .end .text {
+  padding-left: 15px;
+}
+/* line 66, ../../sass/website/packagesDetails.scss */
+section#details .conteudos .imagens .end .text p {
+  color: #4a4a4a;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+/* line 78, ../../sass/website/packagesDetails.scss */
+section#infoGeral {
+  background-color: #fff;
+  padding: 30px 0;
+}
+/* line 82, ../../sass/website/packagesDetails.scss */
+section#infoGeral .sobre .price {
+  padding-left: 15px;
+  padding-top: 30px;
+  margin-bottom: 45px;
+}
+/* line 86, ../../sass/website/packagesDetails.scss */
+section#infoGeral .sobre .price h1 {
+  color: #1e1e1e;
+  font-family: 'Poppins', sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+}
+/* line 93, ../../sass/website/packagesDetails.scss */
+section#infoGeral .sobre .tableprice {
+  padding-left: 15px;
+}
+/* line 97, ../../sass/website/packagesDetails.scss */
+section#infoGeral .sobre .tableprice thead tr th {
+  color: #212529;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 12px;
+}
+/* line 109, ../../sass/website/packagesDetails.scss */
+section#infoGeral .sobre .tableprice tbody tr td {
+  color: #212529;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 12px;
+}
+/* line 120, ../../sass/website/packagesDetails.scss */
+section#infoGeral .sobre .info {
+  margin-top: 30px;
+}
+/* line 122, ../../sass/website/packagesDetails.scss */
+section#infoGeral .sobre .info h1 {
+  color: #1e1e1e;
+  font-family: 'Poppins', sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  padding-top: 30px;
+  margin-bottom: 15px;
+}
+/* line 131, ../../sass/website/packagesDetails.scss */
+section#infoGeral .sobre .tableinfo {
+  margin: 30px 0 30px 0;
+}
+/* line 137, ../../sass/website/packagesDetails.scss */
+section#infoGeral .sobre .tableinfo table tbody tr th {
+  color: #4a4a4a;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+/* line 146, ../../sass/website/packagesDetails.scss */
+section#infoGeral .sobre .tableinfo table tbody tr td {
+  color: #4a4a4a;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+  margin-bottom: 15px;
+}
+/* line 159, ../../sass/website/packagesDetails.scss */
+section#infoGeral .sobre .mapcontact {
+  padding: 30px 0;
+}
+/* line 162, ../../sass/website/packagesDetails.scss */
+section#infoGeral .sobre .mapcontact .maps .title {
+  color: #1e1e1e;
+  font-family: 'Poppins', sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 33.6px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #eee;
+}
+/* line 172, ../../sass/website/packagesDetails.scss */
+section#infoGeral .sobre .mapcontact .maps .gmaps {
+  margin-top: 45px;
+}
+/* line 174, ../../sass/website/packagesDetails.scss */
+section#infoGeral .sobre .mapcontact .maps .gmaps iframe {
+  width: 100%;
+}
+/* line 181, ../../sass/website/packagesDetails.scss */
+section#infoGeral .sobre .mapcontact .contact .titlecont p {
+  color: #1e1e1e;
+  font-family: 'Poppins', sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 33.6px;
+  margin-bottom: 45px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #eee;
+}
+/* line 194, ../../sass/website/packagesDetails.scss */
+section#infoGeral .sobre .mapcontact .contact .dadosCont p span {
+  color: #4a4a4a;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+}
+/* line 201, ../../sass/website/packagesDetails.scss */
+section#infoGeral .sobre .mapcontact .contact .dadosCont p strong {
+  color: #4a4a4a;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+}
+/* line 206, ../../sass/website/packagesDetails.scss */
+section#infoGeral .sobre .mapcontact .contact .dadosCont p strong a {
+  color: #007bff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+/* line 217, ../../sass/website/packagesDetails.scss */
+section#infoGeral .sobre .mapcontact .contact .button a {
+  background-color: #f33f3f;
+  color: #fff;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+/* line 226, ../../sass/website/packagesDetails.scss */
+section#infoGeral .sobre .mapcontact .contact .button a:hover {
+  background-color: black;
+}
+/* line 234, ../../sass/website/packagesDetails.scss */
+section#infoGeral .sobre .formcontact {
+  padding-top: 30px;
+}
+/* line 237, ../../sass/website/packagesDetails.scss */
+section#infoGeral .sobre .formcontact .form .title {
+  color: #1e1e1e;
+  font-family: 'Poppins', sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 33.6px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #eee;
+}
+/* line 252, ../../sass/website/packagesDetails.scss */
+section#infoGeral .sobre .formcontact .form .formcont form .one .form-group input {
+  width: 100%;
+  height: 44px;
+  margin: 45px 0 30px;
+  padding: 6px 12px;
+  border-radius: 0px;
+  color: #212529;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  background-color: #fff;
+  border: 1px solid #eee;
+}
+/* line 268, ../../sass/website/packagesDetails.scss */
+section#infoGeral .sobre .formcontact .form .formcont form .two .form-group input {
+  width: 100%;
+  height: 44px;
+  margin: 0 0 30px;
+  padding: 6px 12px;
+  border-radius: 0px;
+  color: #212529;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  background-color: #fff;
+  border: 1px solid #eee;
+}
+/* line 286, ../../sass/website/packagesDetails.scss */
+section#infoGeral .sobre .formcontact .form .formcont form .three .col .form-group .form-control {
+  min-height: 120px;
+  margin: 0 0 30px;
+  padding: 6px 12px;
+  border-radius: 0px;
+  color: #212529;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  background-color: #fff;
+  border: 1px solid #eee;
+}
+/* line 304, ../../sass/website/packagesDetails.scss */
+section#infoGeral .sobre .formcontact .form .button a {
+  background-color: #f33f3f;
+  color: #fff;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+/* line 313, ../../sass/website/packagesDetails.scss */
+section#infoGeral .sobre .formcontact .form .button a:hover {
+  background-color: black;
+}
+/* line 322, ../../sass/website/packagesDetails.scss */
+section#infoGeral .sobre .formcontact .terms .termstext p {
+  color: #1e1e1e;
+  font-family: 'Poppins', sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 33.6px;
+  margin-bottom: 45px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #eee;
+}
+/* line 335, ../../sass/website/packagesDetails.scss */
+section#infoGeral .sobre .formcontact .terms .dadosCont p {
+  color: #4a4a4a;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+}

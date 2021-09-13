@@ -1,0 +1,68 @@
+/* line 1, ../../sass/website/main.scss */
+header {
+  background-color: #212529;
+}
+/* line 4, ../../sass/website/main.scss */
+header #menu nav {
+  background-color: #212529;
+  padding: 0;
+}
+/* line 8, ../../sass/website/main.scss */
+header #menu nav a h2 {
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0;
+}
+/* line 14, ../../sass/website/main.scss */
+header #menu nav a h2 span {
+  color: #f33f3f;
+  font-family: 'Poppins', sans-serif;
+}
+/* line 27, ../../sass/website/main.scss */
+header #menu nav div ul .nav-item .nav-link {
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 20px 8px 22px 20px;
+  margin: 5px 0 0;
+  border-bottom: 3px solid transparent;
+}
+/* line 40, ../../sass/website/main.scss */
+header #menu nav div ul .nav-item:hover .nav-link {
+  border-bottom: 3px solid #f33f3f;
+}
+/* line 45, ../../sass/website/main.scss */
+header #menu nav div ul .nav-item .submenu a {
+  color: #212529;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  padding: 8px 24px;
+}
+
+/* line 59, ../../sass/website/main.scss */
+section#rodape {
+  background-color: #fff;
+  padding-top: 60px;
+}
+/* line 62, ../../sass/website/main.scss */
+section#rodape .footer {
+  border-top: 1px solid #eeeeee;
+  padding: 60px 0px;
+}
+/* line 68, ../../sass/website/main.scss */
+section#rodape .footer .row .rights p {
+  color: #4a4a4a;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+  text-align: center;
+}
+/* line 75, ../../sass/website/main.scss */
+section#rodape .footer .row .rights p span {
+  color: #f33f3f;
+  margin-left: 3px;
+}

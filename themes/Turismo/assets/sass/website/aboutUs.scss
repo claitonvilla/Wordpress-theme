@@ -1,0 +1,117 @@
+section#sobreNos {
+    background-color: #fff;
+    padding: 100px 0 0 0;
+    .all {
+        .one {
+            .title {
+                margin-bottom: 60px;
+                border-bottom: 1px solid #eee;
+                h1 {
+                    font-size: 28px;
+                    font-family: 'Poppins', sans-serif;
+                    font-weight: 400;
+                    color: #1e1e1e;
+                    margin-bottom: 15px;
+                }
+            }
+        }
+        .two {
+            .text {
+                display: flex;
+
+            }            
+            .imagem {   
+                padding: 0 15px 0 0;             
+                .img {
+                    height: 350px;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+            }
+            .textos {
+                padding: 0 0 0 15px;
+                .title {
+                    h4 {
+                        color: #1a6692;
+                        font-size: 17px;
+                        font-family: 'Poppins', sans-serif;
+                        font-weight: 500;
+                        margin-bottom: 20px;
+                        line-height: 20.4px;
+                    }
+                }
+                .conteudo {
+                    p {
+                        color: #4a4a4a;
+                        font-size: 14px;
+                        font-family: 'Poppins', sans-serif;
+                        font-weight: 300;
+                        line-height: 24px;
+                        margin-bottom: 25px;
+                        padding-bottom: 20px;
+                        border-bottom: 1px solid #eee;
+
+                    }
+                }
+                .social {
+                    .icons {
+                        display: flex;
+                        padding-left: 0px;
+                        .socialIcon {
+                            a {
+                                width: 50px;
+                                height: 50px;
+                                display: inline-block;
+                                line-height: 50px;
+                                background-color: #eee;                                
+                                font-size: 18px;
+                                text-align: center;
+                                margin-right: 5px;
+                                i {
+                                    color: #121212;
+                                    font-size: 18px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .three {
+            margin-top: 100px;
+            .description {                
+                .title {
+                    margin-bottom: 60px;
+                    border-bottom: 1px solid #eee;
+                    h1 {
+                        font-size: 28px;
+                        font-family: 'Poppins', sans-serif;
+                        font-weight: 400;
+                        color: #1e1e1e;
+                        margin-bottom: 15px;
+                    }
+                }
+                .subtitle {
+                    h4 {
+                        font-size: 20px;
+                        font-family: 'Poppins', sans-serif;
+                        font-weight: 500;
+                        line-height: 24px;
+                        color: #212529;
+                    }
+                }
+                .conteudo {
+                    p {
+                        font-size: 14px;
+                        font-family: 'Poppins', sans-serif;
+                        font-weight: 300;
+                        line-height: 24px;
+                        color: #4a4a4a;
+
+                    }
+                }
+            }
+        }
+    }
+}

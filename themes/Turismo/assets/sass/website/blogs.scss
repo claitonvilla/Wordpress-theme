@@ -1,0 +1,159 @@
+section#blogsAll {
+    background-color: #fff;
+    padding-top: 70px;
+    .list {
+        .all {
+            .imgBlogs {
+                .row {
+                    .cardOne {
+                        margin-bottom: 30px;
+                        .card {
+                            border-radius: 0px;
+                            border: none;
+                            a {
+                                img {
+                                    border-radius: 0px;
+                                }
+                            }
+                            .card-body {
+                                a {
+                                    h4 {
+                                        color: #007bff;
+                                        font-family: 'Poppins', sans-serif;
+                                        font-size: 17px;
+                                        margin-bottom: 20px;
+                                        font-weight: 500;
+                                        text-align: center;
+                                    }
+                                }
+                                .card-text {
+                                    font-size: 14px;
+                                    font-family: 'Poppins', sans-serif;
+                                    font-weight: 300;
+                                    color: #4a4a4a;
+                                    line-height: 24px;
+                                    text-align: center;
+                                }
+                            }
+                        }
+                    }
+                }
+                .listagem {
+                    
+                    display: flex;
+                    justify-content: center;
+                    padding-top: 30px;                        
+                    nav {
+                        ul {
+                            li {
+                                a {
+                                    font-size: 15px;
+                                    font-weight: 700;
+                                    font-family: 'Poppins', sans-serif;
+                                    color: #121212; 
+                                    padding: 14px 18px;
+                                    margin: 0 3px; 
+                                    border-radius: 0;   
+                                    text-decoration: none;                      
+                                    
+                                    
+                                    &:focus {
+                                        box-shadow: none;
+                                    }
+                                }
+                                &:hover {
+                                    a {
+                                        color: #fff;
+                                        background-color: #f33f3f;                                
+                                        font-family: 'Poppins', sans-serif;
+                                        font-size: 15px;
+                                        font-weight: 700;
+                                        padding: 14px 18px;
+                                        margin: 0 3px;
+                                        border-radius: 0;
+                                        text-decoration: none;
+        
+                                    }
+                                }
+                                &.active{
+                                    a {
+                                        color: #fff;
+                                        background-color: #f33f3f;                                
+                                        font-family: 'Poppins', sans-serif;
+                                        font-size: 15px;
+                                        font-weight: 700;
+                                        padding: 14px 18px;
+                                        margin: 0 3px;
+                                        border-radius: 0;
+                                        text-decoration: none;
+                                        border-color: #f33f3f;
+                                    }
+                                    
+                                }
+                            }
+                        }
+                    }
+                }                
+            }
+            .search {
+                padding-top:30px;
+                
+                .title {
+                    padding-left: 15px;
+                    .allInfo {
+                        h1 {
+                            color: #212529;
+                            font-family: 'Poppins', sans-serif;
+                            font-size: 20px;
+                            font-weight: 500;
+                            line-height: 24px;    
+                        }
+                        form {    
+                            
+                            input {
+                                background-color: #fff;
+                                font-size: 14px;
+                                font-family: 'Poppins', sans-serif;
+                                width: 100%;
+                                height: 44px;
+                                line-height: 42px;
+                                border: 1px solid #eee;
+                                border-radius: 0px;
+        
+                            }
+                            button {    
+                                background-color: #f33f3f;
+                                color: #fff;
+                                font-size: 14px;
+                                font-family: 'Poppins', sans-serif;
+                                font-weight: 300;
+                                padding: 10px 20px;
+                                border-radius: 5px;
+                                border-color: #f33f3f;                               
+        
+                                &:hover {
+                                    background-color: black;
+                                }
+                            }
+                        }
+                        h2 {                            
+                            color: #212529;
+                            font-size: 20px;
+                            font-family: 'Poppins', sans-serif;
+                            font-weight: 500;
+        
+                        }
+                        p {
+                            a {
+                                color: #007bff;
+                                font-size: 14px;
+                                font-family: 'Poppins', sans-serif;
+                            }
+        
+                        }
+                    }
+                }    
+            }
+        }
+    }
+}

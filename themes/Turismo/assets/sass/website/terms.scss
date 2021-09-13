@@ -1,0 +1,34 @@
+section#terms {
+    padding-top: 100px;
+    background-color: #fff;
+    .allcont {
+        .title {
+            margin-bottom: 60px;
+            h2 {
+                color: #1e1e1e;
+                font-family: 'Poppins', sans-serif;
+                font-size: 28px;
+                font-weight: 400;
+                padding-bottom: 15px;
+                border-bottom: 1px solid #eee;
+                
+            }
+        }
+        .lines {
+            h2 {
+                color: #212529;
+                font-family: 'Poppins', sans-serif ;
+                font-size: 20px;
+                font-weight: 500;
+                line-height: 24px;
+            }
+            p {
+                color: #4a4a4a;
+                font-family: 'Poppins', sans-serif ;
+                font-size: 14px;
+                font-weight: 300;
+                line-height: 24px;
+            }
+        }
+    }
+}
